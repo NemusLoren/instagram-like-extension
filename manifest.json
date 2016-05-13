@@ -1,0 +1,14 @@
+
+{
+  "name": "Instagram Like",
+  "version": "0.3",
+  "manifest_version" : 2,
+  "description": "Automatic like on instagram ->  go to a tag's page or location's page, open 1 photo and click on the icon of the extension.",
+  "background" : {
+    "scripts" : ["myscript.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab"]
+}

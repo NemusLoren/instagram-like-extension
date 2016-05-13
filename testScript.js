@@ -19,30 +19,13 @@ var conte = 0;
 			$('.coreSpriteRightPaginationArrow')[0].click();
 }, 2000);
 
-	/*if(conte == 100){
-		setpausa(function(){}, 360000);
+	if(conte == 100){
+		//setpausa(function(){}, 360000);
+		alert("100 like - Are you sure to continue?");
 	}	
-	*/
+	
 		
 		loop(conte);  
 		
     }, rand);
 }());
-
-
-
-/*var e = jQuery.Event("keydown");
-e.which = 39; // # Some key code value
-$("body").trigger(e);
-
-function simulateKeyPress(character) {
-  jQuery.event.trigger({ type : 'keypress', which : character.charCodeAt(0) });
-}
-
-$(function() {
-  $('body').keypress(function(e) {
-    alert(e.which);
-  });
-
-  simulateKeyPress("e");
-});*/
